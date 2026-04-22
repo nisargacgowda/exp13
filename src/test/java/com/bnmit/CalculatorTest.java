@@ -6,7 +6,7 @@ class CalculatorTest {
     Calculator calc = new Calculator();
     @Test
     void testAdd() {
-        assertEquals(5, calc.add(3, 3));
+        assertEquals(5, calc.add(2, 3));
     }
     @Test
     void testSubtract() {
